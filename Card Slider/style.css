@@ -1,0 +1,92 @@
+body{
+    background:#D6A2E8;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    background:rgb(205, 50, 146);
+    font-family: cursive;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+.container{
+    width: 80%;
+    margin: 5rem auto;
+}
+
+
+.card-wrapper {
+  display: flex;
+  overflow:hidden;
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+.slider-track {
+  display: flex;
+  gap: 2rem;
+}
+
+.card-wrapper ul {
+  width: 20rem;
+  background: white;
+  border-radius:2rem ;
+  margin: 0.3rem 0.5rem;
+  padding: 1rem;
+
+}
+
+.card-wrapper li{
+   
+}
+.card-wrapper p{
+   background: #D6A2E8;
+   padding: 1rem;
+   border-radius: 2rem;
+   width: 5rem;
+   height: 1rem;
+   text-align: center;
+   margin:  1rem 1rem;
+}
+.card-wrapper img{
+    width: 20rem;
+    height: 14rem;
+    display: block;
+    border-radius: 2rem;
+}
+.card-wrapper i{
+    font-size: 2rem;
+    color: black;
+}
+
+.left-arrow{
+    position:absolute;
+    top:55% ;
+    left:2%;
+    width: 4rem;
+    height: 4rem;
+}
+.right-arrow{
+    position: absolute;
+    top:55% ;
+    right:2%;
+    width: 4rem;
+    height: 4rem;
+}
+.left-arrow, .right-arrow{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#backBtn{
+    width: 4rem;
+    height: 4rem;
+}
+
+#nextBtn{
+    width: 4rem;
+    height: 4rem;
+}
+
+
+
