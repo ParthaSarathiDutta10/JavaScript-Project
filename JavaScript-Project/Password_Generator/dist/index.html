@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="./style.css" rel="stylesheet">
+  <title>Password Generator</title>
+</head>
+<body class="h-lvh flex bg-[#493D9E] flex-col overflow-hidden items-center justify-center">
+  <div class="container shadow-[2px_2px_4px_black] bg-[#B2A5FF] p-4 w-[30rem] mx-auto rounded-sm flex flex-col">
+    <h2 class="text-center text-black text-4xl  font-[cursive] font-bold  my-4" >Password Generator</h2>
+    <div class="result-container  relative h-[4.5rem] bg-[#493D9E] flex justify-start text-2xl p-4 w-full text-white">
+      <span id="result" class="max-w-[calc(100%-40px)]"></span>
+      <button class="btn absolute top-4 right-5 bg-[#B2A5FF] rounded-md border-none px-3 py-1 text-2xl " id="clipboard"><i class="fa-solid fa-clipboard"></i></button>
+    </div>
+    <div class="settings">
+      <div class="setting flex my-4  flex-row  justify-between ">
+        <label for="length">Password Length</label>
+        <input type="number" class="bg-white p-1" id="length" value="20" min="4" max="20">
+      </div>
+      <div class="setting flex my-4  flex-row  justify-between  ">
+        <label>Include uppercase letters</label>
+        <input type="checkbox" id="uppercase" checked >
+      </div>
+      <div class="setting flex my-4  flex-row  justify-between  ">
+        <label>Include lowercase letters</label>
+        <input type="checkbox" id="lowercase" checked >
+      </div>
+      <div class="setting flex my-4 flex-row   justify-between  ">
+        <label>Include numbers </label>
+        <input type="checkbox" id="numbers" checked >
+      </div>
+      <div class="setting flex my-4 flex-row   justify-between  ">
+        <label>Include symbols </label>
+        <input type="checkbox" id="symbols" checked >
+      </div>
+    </div>
+    <button class="btn btn-large my-4 bg-[#493D9E] hover:bg-[#725fff] duration-200 ease-in-out p-3 rounded-md flex justify-center items-center text-white self-center" id="generate">Generate Password</button>
+  </div>
+ 
+  <script type="module" src="./script.js"> </script>
+</body>
+</html>

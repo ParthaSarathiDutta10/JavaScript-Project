@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap'); 
+/* font-family: "Leckerli One", cursive; */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;;
+}
+
+
+.container{
+    font-family: "Leckerli One", cursive;
+    margin: 0px;
+    padding-top: 1px;
+    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+    width: 100%;
+    padding-left: 4%;
+    min-height: 100vh;
+    padding-bottom: 3rem;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.container h1{
+    display: flex;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.logo{
+    width:6rem;
+    height: 6rem;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+.btn{
+    width: 15rem;
+    height: 3rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5rem;
+    font-family: "Leckerli One", cursive;
+
+}
+.btn :hover{
+    cursor: pointer;
+    background: #000;
+    transition: 0.2s;
+    color:white;
+}
+.input-box{
+    
+    width: 25rem;
+    height: 15rem;
+    position: relative;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    font-family: "Leckerli One", cursive;
+    margin: 1rem;
+}
+
+.delete{
+    width: 6rem;
+    height: 3rem;
+    display: block;
+    background: #f13d3d;
+    border-radius: 50px;
+    color: white;
+    margin-top: 1rem;
+    border: 2px solid #000;
+    
+}
+
+
+
+
